@@ -1,4 +1,4 @@
-$ServerName = Get-Content "C:\Users\dsrobinson\OneDrive - hsconline\Documents\columbiapc.txt"
+$ServerName = Get-Content "C:\Users\user\documentt"
 foreach ($Server in $ServerName)
 {
 if (Test-Connection -ComputerName $Server -Count 2 -Quiet )
